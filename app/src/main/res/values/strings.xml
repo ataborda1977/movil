@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Formulario</string>
-    <string name="labelNombre">Nombre Completo</string>
-    <string name="labelFechaNacimiento">Fecha Nacimiento</string>
-    <string name="labelTelefono">Telefono</string>
-    <string name="labelCorreo">Correo</string>
-    <string name="labelDescripcionContacto">Descripcion Contacto</string>
-    <string name="labelConfirmarDatos">Confirmar Datos</string>
-</resources>
