@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_about">Acerca De</string>
+    <string name="label_nombre">Nombre</string>
+    <string name="label_correo">Correo</string>
+    <string name="label_mensaje">Mensaje</string>
+    <string name="label_boton_enviar">Enviar Comentario</string>
+    <string name="titulo_acerca_de">Acerca De</string>
+    <string name="titulo_contacto">Contacto</string>
+    <string name="desarrollador">Andres Taborda</string>
+    <string name="correoDesarrollador">ataborda@gmail.com</string>
+    <string name="telefonoDesarrollador">57 1 315 493 70 80</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

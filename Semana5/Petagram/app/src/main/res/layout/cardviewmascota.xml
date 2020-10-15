@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+
+    >
+  <LinearLayout android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:gravity="center_horizontal"
+      >
+      <ImageView
+          android:layout_width="300dp"
+          android:layout_height="130dp"
+          android:id="@+id/imagenMascota"
+          android:src="@drawable/perro1"/>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="center_horizontal"
+          >
+          <ImageView
+              android:layout_width="25dp"
+              android:layout_height="20dp"
+              android:id="@+id/imagenhuesito1"
+              android:src="@drawable/huesoblanco"
+              android:layout_marginLeft="2dp"
+              />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvNombreMascota"
+              android:text="Maya"
+              android:layout_marginLeft="5dp"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvcantidadLike"
+              android:text="3"
+              android:layout_marginLeft="5dp"
+              />
+          <ImageView
+              android:layout_width="25dp"
+              android:layout_height="20dp"
+              android:id="@+id/imagenhuesito2"
+              android:src="@drawable/huesoamarillo"
+              android:layout_marginLeft="5dp"
+              />
+
+      </LinearLayout>
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>
